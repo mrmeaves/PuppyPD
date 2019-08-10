@@ -16,27 +16,51 @@ h1, h2 {
 }
 h1 {
   padding:0;
+  clear:both;
 }
 h2 {
   font-size: 21;
   margin-left: 1em;
   text-align: center;
 }
+main {
+  text-align: center;
+}
+p3 {
+  text-align: center;
+  font-size: 18;
+  /* color:red; */
+  /* background-color: black; */
+}
 p {
   margin-left: 2em;
   font-size: 18;
 }
-nav ul {
-  margin:0;
+.wrapper {
+  text-align: center;
+}
+.wrapper ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  /* For IE, the outcast */
+  zoom:1;
+  *display: inline;
   list-style: none;
 }
-nav il {
-  margin:0;
-  float: center;
+.wrapper li {
+  float: left;
+  padding: 2px 5px;
+  /* border: 1px solid black; */
+}
+nav {
+
+  /* background-color: yellow; */
 }
 nav a {
   color: black;
   text-decoration: none;
+  padding: 15px;
 }
 nav a:hover{
   color:red;
@@ -47,11 +71,11 @@ img {
   align-content: top;
 }
 .img-3-col {
- /* height: 400px; */
- /* background-color:yellow; */
- width:1000px;
- margin:0 auto;
- text-align: center;
+  /* height: 400px; */
+  /* background-color:yellow; */
+  width:1000px;
+  margin:0 auto;
+  text-align: center;
 }
 .img-3-col img {
   margin: 0 12px;
