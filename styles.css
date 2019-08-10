@@ -1,6 +1,8 @@
 body {
-  background-color: #d98ef5; font-style: italic; font-size: 24;font-family: cursive;
-  Margin-top: .1; margin: 0;
+  background-color: #d98ef5;
+  font-size: 24;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
 }
 header {
   background-color: white;
@@ -9,6 +11,8 @@ header {
 }
 h1, h2 {
   margin: 0;
+  font-family: 'Libre Caslon Display', serif;
+  /* color:red; */
 }
 h1 {
   padding:0;
@@ -43,5 +47,12 @@ img {
   align-content: top;
 }
 .img-3-col {
-*/  height: 400px;*/
+ /* height: 400px; */
+ /* background-color:yellow; */
+ width:1000px;
+ margin:0 auto;
+ text-align: center;
+}
+.img-3-col img {
+  margin: 0 12px;
 }
