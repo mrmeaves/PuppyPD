@@ -29,8 +29,6 @@ main {
 p3 {
   text-align: center;
   font-size: 18;
-  /* color:red; */
-  /* background-color: black; */
 }
 p {
   margin-left: 2em;
@@ -43,7 +41,6 @@ p {
   display: inline-block;
   margin: 0;
   padding: 0;
-  /* For IE, the outcast */
   zoom:1;
   *display: inline;
   list-style: none;
@@ -79,4 +76,18 @@ img {
 }
 .img-3-col img {
   margin: 0 12px;
+}
+th {
+  height: 95px;
+  width: 150px;
+  border: 1px solid black;
+  text-align:left;
+  vertical-align: top;
+
+}
+table {
+  margin:0 auto;
+}
+.column1, .column7 {
+  background-color: red;
 }
