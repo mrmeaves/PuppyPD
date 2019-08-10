@@ -16,6 +16,7 @@ h1 {
 h2 {
   font-size: 21;
   margin-left: 1em;
+  text-align: center;
 }
 p {
   margin-left: 2em;
@@ -42,5 +43,5 @@ img {
   align-content: top;
 }
 .img-3-col {
-  height: 400px;
+*/  height: 400px;*/
 }
