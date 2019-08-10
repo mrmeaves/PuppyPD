@@ -7,15 +7,23 @@ header {
   padding: 0em;
   text-align: center;
 }
-h1 {
-  margin: 0 -1em;padding:0;
-
+h1, h2 {
+  margin: 0;
 }
-
+h1 {
+  padding:0;
+}
+h2 {
+  font-size: 21;
+  margin-left: 1em;
+}
+p {
+  margin-left: 2em;
+  font-size: 18;
+}
 nav ul {
   margin:0;
   list-style: none;
-
 }
 nav il {
   margin:0;
@@ -27,4 +35,12 @@ nav a {
 }
 nav a:hover{
   color:red;
+}
+img {
+  max-width: 100%;
+  max-height: 100%
+  align-content: top;
+}
+.img-3-col {
+  height: 400px;
 }
