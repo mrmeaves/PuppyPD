@@ -22,3 +22,10 @@ nav il {
   margin:0;
   float: center;
 }
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover{
+  color:red;
+}
