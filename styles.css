@@ -1,3 +1,24 @@
 body {
-  background-color: purple; text-decoration-color: white;
+  background-color: #d98ef5; font-style: italic; font-size: 24;font-family: cursive;
+  Margin-top: .1; margin: 0;
+}
+header {
+  background-color: white;
+  padding: 0em;
+  text-align: center;
+}
+h1 {
+  margin: 0 -1em;padding:0;
+}
+nav {
+  margin:0 -1em;padding:0;
+}
+nav ul {
+  margin:0;
+  list-style: none;
+
+}
+nav il {
+  margin:0;
+  float: center;
 }
